@@ -154,17 +154,23 @@ let foodArr = [
 */
 
 //CODE HERE
-// let returnCertainTag = (tag, callback) => {
-//     callback(tag)
-// }
-// let checking = (tag) => {
-//     if (foodArr.includes( 'delicious'))
-//     return tag
-// }
 
-// returnCertainTag('good', checking)
 
-const filteredFood = foodArr.filter()
+
+
+
+
+let returnCertainTag = (tag, callback) => {
+    callback(tag)
+}
+let checking = (tag) => {
+    if (foodArr.includes( 'delicious'))
+    return tag
+}
+
+returnCertainTag('good', checking)
+
+// const filteredFood = returnCertainTag =>
 
 
 
@@ -208,8 +214,11 @@ const filteredFood = foodArr.filter()
 */
 
 //CODE HERE
-
-
+let filterByProperty = (property, number, type) => ({
+    
+    {let filteredArr = foodArr.filter()
+}
+)
 /*
     Invoke the `filterByProperty` function passing
     in a value for each paramter.

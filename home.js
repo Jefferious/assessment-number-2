@@ -117,10 +117,10 @@ const deals = [
 */
 
 //CODE HERE
-let replace1 = ((element) => {
-    element.title.replace('15', '10')
-}) 
-replace1(deals)
+// let replace1 = ((element) => {
+//     element.title.replace('15', '10')
+// }) 
+// replace1(deals)
 
 
 /*
@@ -137,3 +137,5 @@ replace1(deals)
 */
 
 //CODE HERE
+// deals = (deals.desc).replace('March', 'April')
+console.log(deals.title.trim())

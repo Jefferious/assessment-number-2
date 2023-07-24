@@ -35,7 +35,8 @@ const cart = [
 
 //CODE HERE
 
-// const summedPrice = cart.reduce(/* CALLBACK HERE */)
+const summedPrice = cart.reduce(function (acc, obj) {return acc + obj.price; }, 0)
+console.log(summedPrice)
 
 
 //////////////////PROBLEM 2////////////////////
@@ -54,7 +55,11 @@ const cart = [
 */
 
 //CODE HERE
-
+let calcFinalPrice = (cartTotal, couponValue, tax) => {
+    cartTotal = cartTotal * (1 + tax) - couponValue
+    return cartTotal
+}
+// calcFinalPrice(89.56, 7.56, .06)
 
 
 //////////////////PROBLEM 3////////////////////
@@ -79,7 +84,7 @@ const cart = [
 
 /*
     TEXT ANSWER HERE
-
+    It would have what item/ items are in the cart. This would be a string. It would also have the total for that item this would be a number. It would have the tax amount also a number. Finally it would have the subtotal of the tax and the total added together. Also a number
 */
 
 /*
@@ -88,3 +93,9 @@ const cart = [
 */
 
 //CODE HERE
+let customerCart = {
+    item: 'mitten',
+    total: 12.99,
+    tax: 0.32,
+    subtotal: 13.31
+}
